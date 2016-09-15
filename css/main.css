@@ -1,0 +1,29 @@
+.container{
+	width: 70%;
+}
+
+#results, #signUpResults {
+	color: #fff;
+	padding:10px;
+}
+
+.success, .signUpSuccess {
+	background-color: #5cb85c;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure, .signUpFailure  {
+	background-color: #d9534f;
+	transition: 0.3s all ease-in-out;
+}
+.navBar{
+	width: 70%;
+	margin: 5% auto 0;
+
+}
+.nav-tabs>li>a{
+	padding: 10px 75px;
+}
+.btn-block {
+    box-shadow: 3px 3px 3px grey;
+}
